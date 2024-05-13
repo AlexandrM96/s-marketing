@@ -1,0 +1,34 @@
+{
+  "name": "sbermarketing-main",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "watch": "vite build --mode development --watch"
+  },
+  "dependencies": {
+    "@splidejs/vue-splide": "^0.6.12",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "autoprefixer": "^10.4.12",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "bootstrap-icons": "^1.9.1",
+    "gsap": "^3.11.3",
+    "pinia": "^2.0.22",
+    "scrollmagic": "^2.0.8",
+    "vue": "^3.2.40",
+    "vue-gsap-scrolltrigger-detector": "^1.0.0",
+    "vue3-markdown-it": "^1.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "postcss": "^8.4.17",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.4",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}

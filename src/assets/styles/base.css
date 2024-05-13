@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SB Sans Display";
+  src: url("../fonts/SBSansDisplayRegular.eot");
+  src: url("../fonts/SBSansDisplayRegular.eot") format("embedded-opentype"),
+    url("../fonts/SBSansDisplayRegular.woff2") format("woff2"),
+    url("../fonts/SBSansDisplayRegular.woff") format("woff"),
+    url("../fonts/SBSansDisplayRegular.ttf") format("truetype"),
+    url("../fonts/SBSansDisplayRegular.svg#SBSansDisplayRegular") format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SB Sans Display";
+  src: url("../fonts/SBSansDisplayLight.eot");
+  src: url("../fonts/SBSansDisplayLight.eot") format("embedded-opentype"),
+    url("../fonts/SBSansDisplayLight.woff2") format("woff2"),
+    url("../fonts/SBSansDisplayLight.woff") format("woff"),
+    url("../fonts/SBSansDisplayLight.ttf") format("truetype"),
+    url("../fonts/SBSansDisplayLight.svg#SBSansDisplayLight") format("svg");
+  font-weight: 300;
+}
+
+.text-P1 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.text-P1_20 {
+  font-size: 20px;
+  line-height: 28px;
+  @media (max-width: theme("screens.mobile.max")) {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+.text-H3_36 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 48px;
+  @media (max-width: theme("screens.mobile.max")) {
+    font-size: 31px;
+    line-height: 40px;
+  }
+}
+
+.text-p2_17 {
+  font-size: 17px;
+  line-height: 26px;
+  @media (max-width: theme("screens.mobile.max")) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.text-P3_14 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.text-P4 {
+  font-size: 14px;
+  line-height: 20px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  backface-visibility: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 106px;
+  margin: 0 auto;
+  @media (max-width: theme("screens.mobile.max")) {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,26 @@
+@import "./base.css";
+
+.btn {
+  @apply px-6 h-10 rounded-full border inline-flex items-center justify-center cursor-pointer border-border_white  hover:bg-violet;
+  letter-spacing: 0.01em;
+  background: transparent;
+  transition: background 0.3s ease;
+  &:hover {
+    color: #fff;
+    border-color: theme("colors.violet") !important;
+    transition: all 0.3s ease !important;
+  }
+}
+
+.trigger {
+  @apply absolute right-0;
+  &--middle {
+    @apply top-1/2;
+  }
+  &--bottom {
+    @apply top-full;
+  }
+  &--top {
+    @apply top-0;
+  }
+}
